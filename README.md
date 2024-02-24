@@ -17,3 +17,4 @@ cromwell-api is the nodejs REST API project
 
 ## Note: 
 - The `.env.development` file will be the environment file used for testing and has already been uploaded in each project.
+- Errors may occur if you are using a version of nodejs lower than the one specified.

@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+# Dependency directories
+node_modules/
+build/
+pgdata/
+data/
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.production.local
+.env.local
+.env.staging
+.env.production
+# Stores VSCode versions used for testing VSCode extensions
+
+
+# Editors
+.idea
+*.iml
+.vscode-test
+.vscode/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+tmp/
+sandbox
+dev.db
+
+# Ignore built ts files
+dist/**/*
+
+# Other
+vendor/
+tmp-resolvers
+package-lock.json
+flow-typed
+javascript/**/migrations/
+typescript/**/migrations/
+misc/**/migrations/
+databases/**/migrations/
+experimental/**/*.db
+.next
+.nuxt
+coverage

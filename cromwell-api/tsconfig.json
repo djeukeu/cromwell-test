@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		// Type Checking
+		"allowUnreachableCode": false,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strict": true,
+
+		// Modules
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"rootDir": "src",
+		"baseUrl": ".",
+		"paths": {
+			"src/*": ["src/*"]
+		},
+
+		// Emit
+		"outDir": "dist",
+		"removeComments": true,
+
+		// Interop Constraints
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+
+		// Language and Environment
+		"target": "es6",
+
+		// Completeness
+		"skipLibCheck": true
+	},
+	"include": ["./src/**/*"],
+	"exclude": ["node_modules, dist"]
+}
